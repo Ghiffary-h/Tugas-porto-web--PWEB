@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Nama Kamu</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+ <!-- Navbar -->
+ <nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Hero -->
+  <header id="home" class="fade-in">
+    <div class="hero-text">
+      <h1>Halo Nama Saya </h1>
+      <h2>Muhammad Salman Ghiffary H</h2>
+      <p>Mahasiswa Unej | Fasilkom Informatika </p>
+      <a href="#about" class="btn">More About Me</a>
+    </div>
+    <div class="hero-img fade-up">
+      <img src="fotomu.png" alt="Foto Profil">
+    </div>
+  </header>
+
+  <section id="about" class="fade-in">
+    <h2>Tentang Saya</h2>
+    <p>Seseoarang yang baru terjun di dunia IT, khususnya di bidang web development.
+       Tertarik dengan dunia teknologi, khususnya pengembangan aplikasi web dan mobile.</p>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Portofolio</h2>
+    <div class="projects">
+      <div class="project-card fade-up">
+        <h3>Proyek 1</h3>
+        <p>Project Algo 1 "E-Commerce Pertanian".</p>
+        <button class="btn more-btn" data-project="1">More</button>
+      </div>
+      <div class="project-card fade-up">
+        <h3>Proyek 2</h3>
+        <p>Project Algo 2. "Aplikasi Navigasi Untuk Mall Berbasis Web".</p>
+        <button class="btn more-btn" data-project="2">More</button>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Email: rusydihanan@gmail.com</p>
+    <p>WhatsApp: +62-85236291257</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Salman G.H.</p>
+  </footer>
+
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
